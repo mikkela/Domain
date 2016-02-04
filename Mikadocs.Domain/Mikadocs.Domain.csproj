@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GloballyUniqueEntityIdentity.cs" />
+    <Compile Include="NumberBasedEntityIdentity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValueObject.cs" />
   </ItemGroup>
