@@ -7,4 +7,5 @@ install:
 
 script:
   - xbuild /p:Configuration=Release Mikadocs.Domain.sln
+  - mono ./testrunner/NUnit.Runners.*/tools/nunit-console.exe ./Mikadocs.Domain.UnitTests/bin/Release/Mikadocs.Domain.UnitTests.dll	
   
